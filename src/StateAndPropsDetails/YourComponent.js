@@ -24,7 +24,7 @@ class YourComponent extends Component {
         return (
             <View>
                 <Text onPress={() => this.incrementCount()}>
-                    { message.toUpperCase() }: { count }
+                    { message.toUpperCase() }: { count } 
                 </Text>
             </View>
         )
